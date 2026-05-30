@@ -70,7 +70,7 @@ function App() {
                 >
                   <use href="/icons.svg#github-icon"></use>
                 </svg>
-                GitHub
+                pornhub
               </a>
             </li>
             <li>
@@ -106,7 +106,7 @@ function App() {
                 >
                   <use href="/icons.svg#bluesky-icon"></use>
                 </svg>
-                Bluesky
+                pornhub
               </a>
             </li>
           </ul>
