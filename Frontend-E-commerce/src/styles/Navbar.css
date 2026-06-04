@@ -1,0 +1,47 @@
+.navbar_container {
+    max-width: 1920px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    background-color: #1a1a1a;
+}
+
+.logo {
+    height: 100%;
+    width: 285px;
+    position: absolute;
+    left: 20px;
+    z-index: 3;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.brokenNavImg {
+    width: 670px;
+    height: 100%;
+    position: absolute;
+    left: 52px;
+    z-index: 2;
+}
+
+.brokenNavImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.navigations {
+    height: 100%;
+    position: absolute;
+    left: 706px;
+    right: 0;
+    background-color: #568f00;
+    border-bottom: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    z-index: 1;
+}
