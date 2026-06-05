@@ -1,9 +1,10 @@
 import Nav from "./components/Navbar";
+import HeroContent from "./components/Hero-content";
 function App() {
     return(
       <div>
           <div className="body">
-            <Nav></Nav>
+              <HeroContent></HeroContent>
           </div>
       </div>
     );
