@@ -1,13 +1,50 @@
 .container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* overflow-x: hidden; */
 }
 
 .nav-wrapper {
-    width: 1920px;
-    height: 340px;
+    width: 100%;
+    height: 31.48vh;
     background-image: url("../assets/hero\ text\ bg\ img.png");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: top center;
+    /* background-color: blue; */
+}
+
+.hero-carousel-container {
+    width: 100%;
+    height: 68.52vh;
+    /* background-color: red; */
+    background-image: url("../assets/hero-carousel-bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-carousel-container img{
+    width: 100%;
+    /* height: 100%; */
+    display: block;
+}
+
+
+.missingPart {
+    height: 53px;
+    width: 706px;
+    position: absolute;
+    bottom: 0;
+}
+
+.missingPart img{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
